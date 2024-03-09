@@ -20,7 +20,7 @@ def muzou_tahnout(K:list,M:list): # kočky
     return R,L
 def muze_tahnout(K:list,M:list): # myš
     """Vrátí bool hodnoty podle toho, jestli je tahy myši možné provést"""
-    LB,LF,RB,RF=True,True,True,True #left back, left forward, right back, right forward
+    LB,LF,RB,RF=True,True,True,True
     if M[1]==0 or [M[0]-1,M[1]-1] in K:
         LF = False
     if M[1]==0 or M[0]==7 or [M[0]+1,M[1]-1] in K:
@@ -39,7 +39,7 @@ def vlevo(kocka: int):
     else:
         lze_tahnout=True
         K[kocka][1]-=1  #souřadnice sloupce
-        K[kocka][0]+=1      #souřadnice řádku   
+        K[kocka][0]+=1  #souřadnice řádku   
     return lze_tahnout
 def vpravo(kocka: int):
     """Tah danou kočkou na pole vpravo dolů"""
@@ -49,7 +49,7 @@ def vpravo(kocka: int):
     else:
         lze_tahnout=True
         K[kocka][1]+=1  #souřadnice sloupce
-        K[kocka][0]+=1      #souřadnice řádku
+        K[kocka][0]+=1  #souřadnice řádku
     return lze_tahnout
 #tahy myši
 def vpred_vpravo():
@@ -110,7 +110,7 @@ def minimax(K:list,M:list,tah_mysi:bool, depth:int, bV:list):
 
     
     if tah_mysi:      
-        if depth>dno:   # maximální povolená hloubka
+        if depth>dno:       # maximální povolená hloubka
             return bV[0]    #best value #TODO měla by se vracet pozice myši, ne bV, ale zřejmě to funguje aj tak ¯\_(ツ)_/¯
         if M[0]<bV[0]:
             bV=[M[0],depth]
@@ -124,8 +124,7 @@ def minimax(K:list,M:list,tah_mysi:bool, depth:int, bV:list):
         
         x=[]
         for i,j in enumerate((LB,RB,LF,RF)):    #TODO DRY
-            if j:   #na pozici lze táhnout
-                
+            if j:   #na pozici lze táhnout                
                 if i == 0:  #LB tah myši (left back)
                     t=(frozenset(((K[0][0],K[0][1]),(K[1][0],K[1][1]),(K[2][0],K[2][1]),(K[3][0],K[3][1]))),(M[0]+1,M[1]-1),False)
                     if t not in nalezené_pozice:
