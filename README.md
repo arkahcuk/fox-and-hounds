@@ -35,11 +35,8 @@ některé „nevítězné“ stěny), čili myš se ve svém tahu nemůže pohno
 ![alt text](images/cats-victory.png)
 
 ## Spuštění
-Otevřete soubor Kocky_a_mys.py a program spusťte. Program se ovládá v terminálu, a kromě
-stáhnutého pythonu není třeba žádné externí knihovny. Při spuštění programu z různých konzolí se
-může grafické znázornění stavu šachovnice zobrazit různě. Pokud aplikace nepodporuje Unicode,
-nebude šachovnice vytisknuta vůbec. Proto doporučuji spouštět ve Visual studio code, kde je
-ozkoušeno, že šachovnice bude vytištěna, jak má.
+Spusťe soubor Kocky_a_mys.py. Program se ovládá přímo z konzole, kam je také zobrazován stav hry. 
+Proto je potřeba, aby konzole podporovala unicode a ideálně měla monospace font. 
 ## Ovládání
 Na začátku si hráč vybere, zda chce hrát za kočky nebo za myš, za oponenta
 bude hrát počítač. Své figurky pak bude ovládat pokyny: napíše pokyn podle
