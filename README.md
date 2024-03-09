@@ -65,7 +65,7 @@ Pokud bychom hráli za myš a chtěli kupříkladu táhnout nejprve vpřed vlevo
 pak dvakrát vpřed vpravo a nakonec jednou vzad vpravo, do
 terminálu bychom tyto příkazy zapsali takto:
 
-7 <enter> … (počkáme na tah počítače) 9 <enter> … 9 <enter> … 3 <enter>
+7 \<enter\> … (počkáme na tah počítače) 9 \<enter\> … 9 \<enter\> … 3 \<enter\>
 
 ![alt text](images/mouse-movement-example.png)
 
@@ -75,11 +75,11 @@ nejprve vpravo a pak vlevo a potom druhou kočkou vlevo a
 třetí kočkou vpravo, příkazy, které bychom psali do
 terminálu by vypadaly takto:
 
-s <enter> …(tah počítače)… a <enter> … d <enter> … k <enter>
+s \<enter\> … (tah počítače) a \<enter\> … d \<enter\> … k \<enter\>
 
 Nebo druhá možnost: 
 
-12 <enter> … 11 <enter> … 21 <enter> … 32 <enter>. 
+12 \<enter\> … 11 \<enter\> … 21 \<enter\> … 32 \<enter\>. 
 
 Bylo by také možné oba
 způsoby psaní pokynů kočkám kombinovat.
