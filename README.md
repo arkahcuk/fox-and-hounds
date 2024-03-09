@@ -84,7 +84,7 @@ Nebo druhá možnost:
 Bylo by také možné oba
 způsoby psaní pokynů kočkám kombinovat.
 
-![alt text](images/mouse-movement-example.png)
+![alt text](images/cat-movement-example.png)
 
 Ve svém tahu lze také partii vzdát příkazem vzdát. Po skončení hry lze zvolit další partii nebo program
 ukončit. Pokud zapomenete některý z příkazů, napište pokyn help jenž vypíše všechny možné příkazy.
