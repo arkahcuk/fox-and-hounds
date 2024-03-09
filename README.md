@@ -62,7 +62,7 @@ pro pohyb vpravo. Např. pohyb druhou kočkou (K2) směrem (dolů) vlevo by se z
 Ekvivalentním pokynem by bylo písmeno d.
 ### Příklady:
 Pokud bychom hráli za myš a chtěli kupříkladu táhnout nejprve vpřed vlevo,
-pak dvakrát vpřed vpravo a nakonec jednou vzad vpravo (obr. 5), do
+pak dvakrát vpřed vpravo a nakonec jednou vzad vpravo, do
 terminálu bychom tyto příkazy zapsali takto:
 
 7 [enter] … (počkáme na tah počítače) 9 [enter] … 9[enter] … 3 [enter]
@@ -72,7 +72,7 @@ terminálu bychom tyto příkazy zapsali takto:
 Pokud bychom hráli za kočky a
 z výchozí pozice bychom chtěli první kočkou táhnout
 nejprve vpravo a pak vlevo a potom druhou kočkou vlevo a
-třetí kočkou vpravo (obr. 6), příkazy, které bychom psali do
+třetí kočkou vpravo, příkazy, které bychom psali do
 terminálu by vypadaly takto:
 
 s [enter] …(tah počítače)… a [enter] … d [enter] … k[enter]
