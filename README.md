@@ -21,7 +21,7 @@ Hráči se střídají po tazích, začíná myš. Dovolené jsou pouze tahy o j
 Myš může táhnout na libovolné ze sousedních bílých polí (není-li obsazené některou z koček) a to
 dopředu i dozadu. Poté následuje tah koček.
 Kočky ve svém tahu můžou táhnout pouze jednou ze svých figurek, a to pouze vpřed (resp. z našeho
-pohledu dolu, viz obr. 1) vlevo nebo vpravo (opět pouze pokud není pole obsazené myší nebo jinou
+pohledu dolu) vlevo nebo vpravo (opět pouze pokud není pole obsazené myší nebo jinou
 z koček). Vyhazování nebo přeskakování figurek není povoleno. Po skončení tahu koček opět následuje
 tah myši a takto se hráči střídají.
 Konec hry nastane tehdy, pokud se myš dostane na libovolné pole na druhé straně šachovnice (tam,
