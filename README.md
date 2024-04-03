@@ -1,5 +1,5 @@
 # Kočky a myš 
-Tento projekt byl vytvořen jako zápočtový program k předmětu NPRG030 Programování 1 v prvním semestru studia oboru informatika na Matematicko-fyzikální fakultě.
+Tento projekt byl vytvořen jako zápočtový program k předmětu NPRG030 Programování 1 v prvním semestru studia informatiky na Matematicko-fyzikální fakultě.
 ## O hře
 Kočka a myš, více známá pod názvem Fox and the Hounds nebo českým vlk a ovečky, je desková hra
 dvou hráčů s úplnou informací, která se hraje na šachovnici; my zvolíme klasické rozměry 8x8. První
